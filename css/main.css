@@ -1,0 +1,43 @@
+body {
+  font-family: Arial;
+  font-size: 48px;
+}
+
+.result {
+  text-align: center;
+}
+
+button,
+input {
+  font-family: Arial;
+  font-size: 45px;
+  border: 3px solid grey;
+  border-radius: 5px;
+}
+
+button {
+  width: 70px;
+  height: 70px;
+  color: white;
+  background-color: grey;
+}
+
+button:hover {
+  background-color: white;
+  border-color: grey;
+  color: grey;
+  cursor: pointer;
+}
+
+input {
+  width: 125px;
+  height: 65px;
+  text-align: center;
+  margin: 0 20px;
+}
+
+.flex-container {
+  display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+}
